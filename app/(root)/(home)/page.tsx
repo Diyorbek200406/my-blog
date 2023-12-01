@@ -27,20 +27,9 @@ const Home = () => {
           exit={{ opacity: 0, x: 500 }}
           transition={{ duration: 1, delay: 0.2, ease: "easeInOut" }}
         >
-          {/* <Text as={"span"} fontSize={"large"} color={"green.400"}>
-            I'm a{" "}
-            <TypeAnimation
-              // sequence={[
-              //   ...WordAnimate("Frontend Developer"),
-              //   2000,
-              //   ...WordAnimate("Backend Developer"),
-              //   2000,
-              //   ...WordAnimate("Full Stack Developer"),
-              //   2000,
-              // ]}
-              repeat={Infinity}
-            />
-          </Text> */}
+          <Text as={"span"} fontSize={"large"} color={"green.400"}>
+            I'm a <TypeAnimation sequence={["D", 2000, "De", 2000, "Dev", 2000]} repeat={Infinity} />
+          </Text>
         </motion.div>
 
         <motion.div
