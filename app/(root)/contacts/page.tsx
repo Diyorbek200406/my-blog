@@ -47,7 +47,7 @@ const Contacts = () => {
             exit={{ opacity: 0, x: 500 }}
             transition={{ duration: 1, delay: 0.4, ease: "easeInOut" }}
           >
-            <Link href={"/contacts"}>
+            <Link href={"/"}>
               <Button
                 colorScheme={"green"}
                 bg={"green.400"}
@@ -57,7 +57,7 @@ const Contacts = () => {
                   bg: "green.500",
                 }}
               >
-                More Contacts
+                Home
               </Button>
             </Link>
           </motion.div>

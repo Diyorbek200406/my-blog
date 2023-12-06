@@ -19,7 +19,7 @@ const Layout = ({ children }: { children: ReactNode }): JSX.Element => {
 
 export default Layout;
 
-export const WithLayout = <T extends Record<string, unknown>>(Component: FunctionComponent<T>) => {
+export const WithLayout = <T extends Record<any, any>>(Component: FunctionComponent<T>) => {
   return function withLayoutComponent(props: T): JSX.Element {
     return (
       <Layout>

@@ -1,9 +1,10 @@
 "use client";
 
 import { WithLayout } from "@/layouts";
-import { Box, Heading, Container, Text, Button, Stack, Icon, useColorModeValue, createIcon } from "@chakra-ui/react";
+import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import React, { ReactNode } from "react";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {

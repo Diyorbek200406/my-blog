@@ -24,8 +24,8 @@ const Footer = () => {
 
         <Flex gap={4}>
           {FooterIcons.map((item, index) => (
-            <Link href={item.href} target="_blank">
-              <IconButton key={index} aria-label={item.title} icon={<item.icon />} colorScheme="facebook" variant="outline" />
+            <Link key={index} href={item.href} target="_blank">
+              <IconButton aria-label={item.title} icon={<item.icon />} colorScheme="facebook" variant="outline" />
             </Link>
           ))}
         </Flex>
